@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Light mode (default) */
+html.light {
+    --bg-color: white;
+    --text-color: black;
+}
+
+/* Dark mode */
+html.dark {
+    --bg-color: #1e1e1e;
+    --text-color: white;
+}
+
+/* Apply to the body or components */
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
