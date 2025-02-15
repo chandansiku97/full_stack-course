@@ -1,0 +1,7 @@
+class NameOfTheClass {
+    
+}
+
+class product {
+  
+}
